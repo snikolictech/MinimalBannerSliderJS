@@ -1,0 +1,35 @@
+body {
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+}
+
+#slideBG {
+	position:relative; border-top:5px solid #fff; border-bottom: 5px solid #fff; background-image: url(slider/slidebg.jpg); text-align:center; background-repeat: no-repeat; background-size: cover;
+}
+
+.slideArrow {
+	position:absolute;
+	top:40%;
+	z-index:999;
+}
+
+#slidePrev {
+	left:0px;
+}
+
+#slideNext {
+	right:0px;
+}
+
+#slidePrev img {
+	border: 1px solid #383737; border-radius: 0 8px 8px 0;
+}
+
+#slideNext img {
+	border: 1px solid #383737; border-radius: 8px 0 0 8px;
+}
+
+#slideImg {
+	width:100%; display:block;	
+}
